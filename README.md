@@ -51,8 +51,6 @@ Open `dist/index.html` in a browser. Browser storage behavior can vary with file
 ```text
 website/
 ├── README.md
-├── .openai/
-│   └── hosting.json
 └── dist/
     ├── index.html
     ├── styles.css
@@ -64,7 +62,6 @@ website/
 | `dist/index.html` | Semantic sections, navigation, search controls, event grid, dialogs, and footer. |
 | `dist/styles.css` | Theme variables, typography, layout, responsive breakpoints, and animation rules. |
 | `dist/app.js` | Sample event data, rendering, filters, forms, storage, tickets, and calendar downloads. |
-| `.openai/hosting.json` | Deployment identity and static output directory configuration. |
 
 ## Implementation
 
@@ -154,4 +151,3 @@ Google Fonts and Unsplash images require internet access. System fonts provide a
 ## Links
 
 - Repository: https://github.com/dokja-5149/website
-- Hosted website: https://gather-events-arpit.vermarpit15.chatgpt.site (ChatGPT sign-in required)
